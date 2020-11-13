@@ -1,0 +1,67 @@
+img{
+height: 300px;
+width: 250px;
+}
+
+body{background: linear-gradient(90deg, #f0bc68 0%, #f0bc68 50%, #c4d7d1 50%, #c4d7d1 100%);
+
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+ font-size: 23px;
+ font-weight: bold;
+ transform: translate(-50%,-50%);
+
+}
+.user{
+position: absolute;
+left:450px;
+font-size: 28px;
+font-weight: bold;
+}
+.oppo{
+position: absolute;
+ right:470px;
+font-size: 28px;
+font-weight: bold;
+
+}
+.result2{
+    float: right;
+}
+.oppo{
+    float:right;
+    
+}
+.gu{
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border-color: #fff;
+    color: #fff;
+    background-color: #eb6100;
+}
+.pa{
+    cursor: pointer;
+    border-radius: 0.5rem;
+    color: #fff;
+    border-color: #fff;
+    background-color: #eb6100;
+}
+.choki{
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border-color: #fff;
+    color: #fff;
+    background-color: #eb6100;
+}
+.buttons{
+position: absolute;
+bottom: 300px;
+left: 75px;
+}
+.shuffle{
+position: relative;
+left: 720px
+}
